@@ -1,5 +1,5 @@
 # Tarea 01 realizada con un for
-for i in range(20):
+while True:
     numero = int(input('Ingrese un número entero: '))
     if 1000 <= numero and numero <= 50000:
         cont = 0
@@ -8,6 +8,7 @@ for i in range(20):
                 cont = cont + 1
         if cont == 0:
             print(str(numero) + ' es primo')
+            break # rompe el lazo while
         else: 
             print('No es primo')
     else:
