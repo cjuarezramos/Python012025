@@ -23,5 +23,5 @@ persona3 = {"nombre":'Maria',"apellido":"Martinez",'edad':20,'nota':3.9}
 
 # Diccionario puede contener otros diccionarios
 
-bd = dicc = {'00013600':persona1,'00012398':persona2,'00324507':persona3}
+bd = {'00013600':persona1,'00012398':persona2,'00324507':persona3}
 print(bd)
