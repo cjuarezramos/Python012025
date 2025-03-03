@@ -41,7 +41,7 @@ def bd(lname,lnum):
     dicc={}
     
     for i in range(len(lname)):
-        dicc.pop({lnum[i]:lname[i]})
+        dicc.update({lnum[i]:lname[i]})
         
     return dicc
     
